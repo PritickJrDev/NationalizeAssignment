@@ -14,7 +14,8 @@
         android:layout_height="30dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"
-        android:background="#E4E4E4"
+        android:background="#A5A3A3"
+        android:textColor="@color/black"
         android:hint="Search Name" />
 
     <Button
@@ -43,7 +44,8 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="@color/black"/>
 
         </androidx.core.widget.NestedScrollView>
 
