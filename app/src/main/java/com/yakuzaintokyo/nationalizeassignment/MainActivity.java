@@ -76,7 +76,6 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onFailure(Call<National> call, Throwable t) {
-                result.setText("Oops");
                 Toast.makeText(MainActivity.this, "Oops! unable to retrieve data", Toast.LENGTH_SHORT).show();
             }
         });
